@@ -1,7 +1,7 @@
 # ***Git Flow***
 
 Git Flow es un conjunto de extensiones de git, cuyo objetivo es propocionarnos comandos para la terminal que faciliten el desarrollo del Git Branching Model (GBM). Dichos comandos nos ayudan en la creacion de nuevas ramas, en la eliminacion de estas una vez terminadas, realizando varias tareas en un solo comando. Por ejemplo: Si es que quisieramos unir una rama de **Feature** a **Develop**, tendriamos que ir a **Develop**, unir las ramas sin Fast Forward, y por ultimo eliminar la rama **Feature**, si bien es un proceso mecanico, podria generar fallas, como eliminar la rama **Develop**, o no hacer una union de manera correcta. Todo lo mencionado anteriormente se resume en un solo comando de git flow, acelerando el proceso y reduciendo de gran manera los posibles errores en el manejo de ramas.
-En el siguiente articulo explicara los principales comandos para Git Flow y los comandos que resumen de Git, abalizando rama por rama.
+En el siguiente articulo explicara los principales comandos para Git Flow y los comandos que resumen de Git, analizando rama por rama.
 ## Inicio
 Para comenzar con Git Flow, primero debemos situarnos en el repositorio git de nuestro proyecto y ejecutar el comando:
 ```
