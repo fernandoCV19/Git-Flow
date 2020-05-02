@@ -21,11 +21,11 @@ Cuando terminamos nuestro trabajo y sentimos que esta listo para ser integrado e
 ```
 git flow feature finish NOMBRE
 ``` 
-En NOMBRE debemos ingresar el nombre de la rama **feature** que queremos finalizar, a continuacion, se hara un *merge* con la rama **develop** sin Fast Forward, nos cambiara a esta rama y finalmente se eleminara la rama **feature** que habiamos finalizado.
+En NOMBRE debemos ingresar el nombre de la rama **feature** que queremos finalizar, a continuacion, se hara un *merge* con la rama **develop** sin Fast Forward, nos cambiara a esta rama y finalmente se eliminara la rama **feature** que habiamos finalizado.
 
 ## **Rama Release**
 ### Iniciar
-Para iniciar una rama de tipo *+release** debemos ejecutar el siguiente comando:
+Para iniciar una rama de tipo **release** debemos ejecutar el siguiente comando:
 ```
 git flow release start NOMBRE
 ```
